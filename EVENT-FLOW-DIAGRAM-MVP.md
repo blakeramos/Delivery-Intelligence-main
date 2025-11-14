@@ -55,22 +55,22 @@ graph TB
     M --> O
     M --> P
     
-    style A fill:#e1f5ff,stroke:#0288d1,stroke-width:3px
-    style B fill:#e1f5ff,stroke:#0288d1,stroke-width:3px
-    style C fill:#e1f5ff,stroke:#0288d1,stroke-width:3px
-    style D fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    style E fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    style G fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    style H fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    style I fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style J fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style K fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    style L fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style M fill:#fff9c4,stroke:#f9a825,stroke-width:3px
-    style N fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px
-    style O fill:#ffccbc,stroke:#d84315,stroke-width:3px
-    style P fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px
+    style A fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
+    style B fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
+    style C fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
+    style D fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    style E fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    style G fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    style H fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    style I fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style J fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style K fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    style L fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style M fill:#fff9c4,stroke:#f9a825,stroke-width:3px,color:#000
+    style N fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O fill:#ffccbc,stroke:#d84315,stroke-width:3px,color:#000
+    style P fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
 ```
 
 ---
@@ -128,8 +128,8 @@ flowchart TD
     style START fill:#4caf50,stroke:#2e7d32,stroke-width:3px,color:#fff
     style END fill:#4caf50,stroke:#2e7d32,stroke-width:3px,color:#fff
     style INPUT1 fill:#2196f3,stroke:#1565c0,stroke-width:2px,color:#fff
-    style STORE fill:#ff9800,stroke:#e65100,stroke-width:2px
-    style EVENT fill:#ff9800,stroke:#e65100,stroke-width:2px
+    style STORE fill:#ff9800,stroke:#e65100,stroke-width:2px,color:#000
+    style EVENT fill:#ff9800,stroke:#e65100,stroke-width:2px,color:#000
     style FUNC fill:#9c27b0,stroke:#6a1b9a,stroke-width:2px,color:#fff
     style STEP1 fill:#9c27b0,stroke:#6a1b9a,stroke-width:2px,color:#fff
     style STEP2 fill:#9c27b0,stroke:#6a1b9a,stroke-width:2px,color:#fff
@@ -137,9 +137,9 @@ flowchart TD
     style STEP4 fill:#4caf50,stroke:#2e7d32,stroke-width:2px,color:#fff
     style STEP5 fill:#9c27b0,stroke:#6a1b9a,stroke-width:2px,color:#fff
     style STEP6 fill:#4caf50,stroke:#2e7d32,stroke-width:2px,color:#fff
-    style CAPTION_OUT fill:#ffc107,stroke:#f57f17,stroke-width:2px
-    style DECISION fill:#ffc107,stroke:#f57f17,stroke-width:2px
-    style SCORES fill:#ffc107,stroke:#f57f17,stroke-width:2px
+    style CAPTION_OUT fill:#ffc107,stroke:#f57f17,stroke-width:2px,color:#000
+    style DECISION fill:#ffc107,stroke:#f57f17,stroke-width:2px,color:#000
+    style SCORES fill:#ffc107,stroke:#f57f17,stroke-width:2px,color:#000
     style ALERT fill:#f44336,stroke:#c62828,stroke-width:2px,color:#fff
     style DASH1 fill:#4caf50,stroke:#2e7d32,stroke-width:2px,color:#fff
     style DASH2 fill:#f44336,stroke:#c62828,stroke-width:2px,color:#fff
@@ -159,9 +159,9 @@ graph LR
         C[⏰ Time Data<br/>- Promised: 9:00 AM<br/>- Actual: 9:28 AM<br/>- Delay: 28 minutes]
     end
     
-    style A fill:#bbdefb,stroke:#1976d2,stroke-width:2px
-    style B fill:#bbdefb,stroke:#1976d2,stroke-width:2px
-    style C fill:#bbdefb,stroke:#1976d2,stroke-width:2px
+    style A fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style B fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
+    style C fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000
 ```
 
 **Input JSON Example:**
@@ -191,10 +191,10 @@ graph LR
         G[📱 Dashboard Data<br/>- Real-time metrics<br/>- Trend analysis<br/>- Driver performance]
     end
     
-    style D fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
-    style E fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
-    style F fill:#ffccbc,stroke:#d84315,stroke-width:2px
-    style G fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
+    style D fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,color:#000
+    style E fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,color:#000
+    style F fill:#ffccbc,stroke:#d84315,stroke-width:2px,color:#000
+    style G fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000
 ```
 
 **Output JSON Example:**
@@ -391,15 +391,15 @@ graph TB
     FN --> NOTIF
     NOTIF --> APEX
     
-    style OS fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    style EV fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    style FN fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
-    style AI1 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style AI2 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style AI3 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style DB fill:#fff9c4,stroke:#f9a825,stroke-width:3px
-    style APEX fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px
-    style NOTIF fill:#ffccbc,stroke:#d84315,stroke-width:2px
+    style OS fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    style EV fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    style FN fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px,color:#000
+    style AI1 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style AI2 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style AI3 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    style DB fill:#fff9c4,stroke:#f9a825,stroke-width:3px,color:#000
+    style APEX fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style NOTIF fill:#ffccbc,stroke:#d84315,stroke-width:2px,color:#000
 ```
 
 ---
