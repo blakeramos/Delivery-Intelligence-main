@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+config
+credentials
+venv/
+
+# Deployment artifacts (generated files)
+function.zip
+*.zip
